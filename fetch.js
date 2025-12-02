@@ -1,4 +1,6 @@
-fetch("http://localhost:3000/api/listing", {
+import fetch from "node-fetch";
+
+fetch("https://market-stock-suggestion.onrender.com/market_stock/listing", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
@@ -6,6 +8,6 @@ fetch("http://localhost:3000/api/listing", {
     n_sims: 50000
   }),
 })
-  .then(r => r.json())
-  .then(data => console.log("API RESULT:", data))
-  .catch(e => console.log(e));
+  .then(res => res.json())
+  .then(data => console.log("RESULT:", data))
+  .catch(e => console.error("ERR:", e));
