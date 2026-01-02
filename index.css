@@ -1,0 +1,82 @@
+*{
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    margin-bottom: 2rem;
+}
+.container{
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    width: 32rem;
+    height: 40rem;
+    background-color: black;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.display {
+    display: flex;
+    background-color: red;
+    width: 80%;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.previous {
+    display: flex;
+    background-color: yellow;
+    width: 90%;
+    height: 17%;
+}
+.current {
+    display: flex;
+    background-color: pink;
+    width: 90%;
+    height: 60%;
+    margin: 0.5rem 0;
+}
+
+.btn {
+    width: 80%;
+    height: 26rem;
+    background-color: blue;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    width: 70%;
+    height: 90%;
+    background-color: green;
+    margin-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.operator{
+    width: 20%;
+    height: 90%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}

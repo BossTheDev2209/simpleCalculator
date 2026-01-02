@@ -1,0 +1,20 @@
+
+:root[data-theme="light"] {
+  /* Same as default root */
+  --claude-orange: #C15F3C;
+  --claude-orange-light: #CC785C;
+  --claude-cocoa: #5D3D3A;
+  --text-primary: #2D2D2D;
+  --background-primary: #FFFFFF;
+  --background-secondary: #F5F5F5;
+}
+
+:root[data-theme="dark"] {
+  /* Dark Mode */
+  --claude-orange: #D97B5A;
+  --claude-orange-light: #E89975;
+  --claude-cocoa: #5D3D3A; /* Assuming same as light, adjust if needed */
+  --text-primary: #F0F0F0;
+  --background-primary: #202121;
+  --background-secondary: #2C2C2C;
+}
