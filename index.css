@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--background-secondary);
 }
 
 .title{
@@ -17,66 +18,92 @@
     display: flex;
     width: 32rem;
     height: 40rem;
-    background-color: black;
+    background-color: var(--background-primary);
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 1rem;
 }
 .display {
     display: flex;
-    background-color: red;
-    width: 80%;
+    background-color: var(--background-secondary);
+    width: 90%;
     height: 8rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
+    border-radius: 1rem;
 }
 .previous {
     display: flex;
-    background-color: yellow;
-    width: 90%;
+    background-color: var(--background-primary);
+    width: 93%;
     height: 17%;
 }
 .current {
     display: flex;
-    background-color: pink;
-    width: 90%;
+    background-color: var(--background-primary);
+    width: 93%;
     height: 60%;
     margin: 0.5rem 0;
 }
 
 .btn {
-    width: 80%;
+    width: 90%;
     height: 26rem;
-    background-color: blue;
+    background-color: var(--background-secondary);
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-radius: 1rem;
 }
 
 .num{
     width: 70%;
     height: 90%;
-    background-color: green;
     margin-right: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     box-sizing: border-box;
+}
+
+
+.num button{
+    border-radius: 1rem;
+    font-size: large;
+}
+
+.num button:hover{
+    background-color: var(--claude-orange-light);
+    cursor: pointer;
+}
+
+.num button:active{
+    background-color: var(--claude-orange);
 }
 
 .operator{
     width: 20%;
     height: 90%;
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
     box-sizing: border-box;
-    flex-wrap: wrap;
+}
+
+.operator button{
+    border-radius: 1rem;
+    font-size: large;
+}
+
+.operator button:hover{
+    background-color: var(--claude-orange-light);
+    cursor: pointer;
+}
+
+.operator button:active{
+    background-color: var(--claude-orange);
 }
