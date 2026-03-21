@@ -1,20 +1,24 @@
 
 :root[data-theme="light"] {
-  /* Same as default root */
-  --claude-orange: #C15F3C;
-  --claude-orange-light: #CC785C;
-  --claude-cocoa: #5D3D3A;
-  --text-primary: #2D2D2D;
+  --claude-orange: #FF6B35;
+  --claude-orange-light: #FF8C42;
+  --claude-cocoa: #4A4A4A;
+  --text-primary: #1F1F1F;
   --background-primary: #FFFFFF;
-  --background-secondary: #F5F5F5;
+  --background-secondary: #F0F0F0;
+  --page-background: #2d2d2d;
+  --operator-btn: #EB6666;
+  --action-btn: #2ac4aa;
 }
 
 :root[data-theme="dark"] {
-  /* Dark Mode */
-  --claude-orange: #D97B5A;
-  --claude-orange-light: #E89975;
-  --claude-cocoa: #5D3D3A; /* Assuming same as light, adjust if needed */
-  --text-primary: #F0F0F0;
-  --background-primary: #202121;
-  --background-secondary: #2C2C2C;
+  --claude-orange: #FF9A56;
+  --claude-orange-light: #FFB380;
+  --claude-cocoa: #B8B8B8;
+  --text-primary: #FFFFFF;
+  --background-primary: #1A1A1A;
+  --background-secondary: #2D2D2D;
+  --page-background: #f2f1f1;
+  --operator-btn: #EB6666;
+  --action-btn: #26FED7;
 }
